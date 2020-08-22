@@ -1,0 +1,14 @@
+{% extends 'blogs/base.html' %}
+
+{% block content %}
+<h1>記事投稿</h1>
+
+<form method="post" class="pure-form">
+    {% csrf_token %}
+    <table style="margin-bottom: 30px">
+        {{ form }}
+    </table>
+    <input type="submit" class="pure-button pure-button-primary" value="投稿">
+</form>
+
+{% endblock %}
