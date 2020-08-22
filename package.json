@@ -1,0 +1,20 @@
+{
+  "name": "cucumber-web-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Canon11 <10767355+Canon11@users.noreply.github.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "v14.8.0"
+  },
+  "engineStrict": true,
+  "dependencies": {},
+  "scripts": {
+    "e2e-test": "cucumber-js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "puppeteer": "^5.2.1"
+  }
+}

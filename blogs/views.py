@@ -6,6 +6,7 @@ from .models import Blog
 
 class BlogListView(ListView):
     model = Blog
+    ordering = ['-id']
 
 
 class BlogCreateView(CreateView):
